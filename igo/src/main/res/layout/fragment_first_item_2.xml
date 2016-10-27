@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/iv_shop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/takeout_img_logo_new" />
+    <TextView
+        android:id="@+id/tv_shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_shop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="XXXX"
+        android:maxLines="1"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tv_shop_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_shop"
+        android:layout_toRightOf="@id/iv_shop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="XXXXXXXXXXXXXX"
+        android:maxLines="1"
+        android:textSize="15dp"
+         />
+
+</RelativeLayout>

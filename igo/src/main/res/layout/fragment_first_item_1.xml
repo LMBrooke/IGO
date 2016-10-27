@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_food"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/travel__icon_food"
+            android:text="美食"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_hotel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/travel__icon_hotel_reserve"
+            android:text="住宿"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_enjoy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/travel__icon_intertainment"
+            android:text="娱乐"
+            android:gravity="center"/>
+
+</LinearLayout>
